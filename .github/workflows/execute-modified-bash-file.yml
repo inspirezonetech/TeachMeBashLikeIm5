@@ -1,0 +1,28 @@
+name: execute-modified-bash-file
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  job-execute-bash:
+    runs-on: ubuntu-latest
+  
+    steps:
+  
+    # checkout repo
+    - uses: actions/checkout@v2
+    
+    #use action to get file that changed
+    - uses: lots0logs/gh-action-get-changed-files@2.1.4
+      with:
+       token: ${{ secrets.GITHUB_TOKEN }}
+
+    # test if modified file will run
+    - name: Execute file!
+      run: |
+        echo "job: running script to execute modified file:"
+        ./.github/workflows/run-modified-bash.sh
+        echo "job: Done"

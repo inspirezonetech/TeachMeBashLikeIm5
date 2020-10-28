@@ -1,0 +1,21 @@
+
+name: bash-shellchecker-linter-run
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  job-bash-linter:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Run Shellcheck lint!
+      uses: azohra/shell-linter@latest
+      with:
+        path: "*/*.sh"
+        #severity: "error"
+    
