@@ -29,7 +29,7 @@ then
 fi
 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: Say hello !
 # ------------------------------------------------------------------------------------
 
 # Write a condition to say Hi to yourself and if it's not your first name 
