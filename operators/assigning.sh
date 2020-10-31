@@ -12,8 +12,12 @@ fruit="banana"
 
 # be careful, no spaces
 
-# we can see the result here
+# we use * keywork to see the value of a variable, just like this :
 echo "The value of \"fruit\" is $fruit."
+
+# you have also the kework let for assigning, especially for arithmetic operations
+let a=10+5
+echo "The value of \"a\" is now $a."
 
 
 # ------------------------------------------------------------------------------------
