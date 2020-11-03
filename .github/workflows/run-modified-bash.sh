@@ -13,6 +13,8 @@ b=$(echo "$a" | cut -d '"' -f 2)
 b=$(echo "$b" | cut -d '[' -f 2)
 #cut ] from string
 b=$(echo "$b" | cut -d ']' -f 2)
+#remove new line character
+b=$(echo "$b" | tr -d '\n')
 
 echo "run-sh: After parsing, file to execute: $b" 
 
@@ -22,6 +24,7 @@ if [[ "$b" == *".sh"* ]]; then
 
     if [[ "$b" != *"run-modified-bash.sh"* ]]; then
         echo "run-sh: This is a .sh file, executing"
+        chmod +x "$b" # give executable permission
         $b
     else
         echo "$b was modified. No need to execute"
