@@ -14,6 +14,10 @@ Each file contains:
 | Tutorial              | Link              | 
 |-----------------------|-------------------| 
 | **Getting started**                       |
-|Your first bash program, using echo        | [hello-world.sh](getting-started/hello-world.sh)            |
-| **Running from command line**             | 
+|Your first bash program, using echo        | [hello-world.sh](getting-started/hello-world.sh)             |
+| **Command line**                          | 
 |Passing in arguments through command line  | [cmd-line.sh](cmd-line/cmd-line-args.sh)                     |
+| **Conditions**                            | 
+|How to use if else                         | [if-else.sh](conditions/if-else.sh)                          |
+| **Operators**                             | 
+|How to use assigning operators             | [assigning.sh](operators/assigning.sh)                       |
