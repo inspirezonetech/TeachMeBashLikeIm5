@@ -1,7 +1,9 @@
 # TeachMeBashLikeIm5
 *You are welcome to contribute to this repo. See the [**CONTRIBUTING.md**](./CONTRIBUTING.md) for more info*
 
-![TeachMeBashLikeIm5](https://inspirezone.tech/wp-content/uploads/2020/10/TeachMeBashLikeIm5-1024x512.png)
+<img src="https://inspirezone.tech/wp-content/uploads/2021/10/Accepting-Contributions-for-Hacktoberfest-2021.png" width="300">
+
+[![TeachMeBashLikeIm5](https://inspirezone.tech/wp-content/uploads/2020/10/TeachMeBashLikeIm5-1024x512.png)](https://inspirezone.tech/)
 ## About this repo
 
 A collection of super beginner friendly tutorials and challenges to teach the bash programming language. 
