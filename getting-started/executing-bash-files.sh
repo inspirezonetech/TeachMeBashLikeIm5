@@ -6,7 +6,7 @@
 # When our script gets bigger and bigger, we store it in a file.
 # Create a new text file with a .sh extension, then put your commands in it.
 
-vim my-script.sh
+echo "echo execute my-script"> my-script.sh
 
 # And in order to run a bash script, you should give the file "Execute" permission.
 # If we don't give the "Execute" permission, we may get a permission denied error.
