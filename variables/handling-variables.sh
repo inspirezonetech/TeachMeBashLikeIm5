@@ -17,10 +17,9 @@ echo "$variable"
 #default values and the syntax is like this:
 echo "${newVariable:-"variable does not have a value"}"
 
-# To test if a variable has a value and do something based on that information you
-#can use '?' or ':?' as follows:
-echo "${newVariable:?variable has no value}" #this will print the text that follows
-											 #':?' as an error
+# To test if a variable has a value and print a text message as an error based on that, you
+#can use '?' or ':?' like this (uncomment the next line if you want the error to be shown):
+#echo "${newVariable:?variable has no value}"
 
 # To assign a value to a variable only if it does not already have one when being
 #querried:
