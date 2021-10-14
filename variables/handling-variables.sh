@@ -32,8 +32,6 @@ newVariable=
 echo "${#variable}"
 
 # ------------------------------------------------------------------------------------
-# Challenge: How long are you?
+# Challenge: Choose a word that you really like, assign it to a variable and print
+#  			 it's length to the console
 # ------------------------------------------------------------------------------------
-
-# Without assigning values to any variables, write a short script that prints the
-#length of your name to the console.
