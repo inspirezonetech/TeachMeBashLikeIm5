@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------------
 # Tutorial: Arithmatic operators. 
             #Using expr : Here the expr command is used to evaluates the given expressions and display its corresponding output. The `expr` is similar to 'let,' but it does 
-            not save the result to a variable. It directly prints the result.
+            #not save the result to a variable. It directly prints the result.
             #Syntax : $expr expression
             #Using let : Let is a built-in command of Bash that allows us to perform arithmetic operations.
             #Syntax : let <arithmetic expression>
