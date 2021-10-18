@@ -1,10 +1,23 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------------
-# Tutorial: brief description of tutorial content
+# Tutorial: commenting
 # ------------------------------------------------------------------------------------
 
-# Code here explaining concept with comments to guide
+# Comments are a good way of writing useful information or disable temporarily 
+#some instructions.
+
+# To comment you must use the '#' character. Any text on a line, that follows the
+#'#' character will be considered a comment.
+
+# this is a single-line comment
+echo "hello!" # this is also a single-line comment that follows an instruction
+
+# However, if you would write '!' immediately after a '#', you would create a shebang,
+#an instruction that tells the operating system what interpreter should be used to run
+#the file.
+# As an example take the first line of this file that makes sure the OS will run this
+#using Bash.
 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: write your name in a comment!
 # ------------------------------------------------------------------------------------
