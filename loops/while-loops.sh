@@ -79,7 +79,7 @@ done
 # ------------------------------------------------------------------------------------
 # Challenge: Create a 'movies' array containing your favourite movies.
 # In a while-loop, print each movie if it's name start with "I".
-# Example: foods=("Inception" "Marathon" "Insiders")
+# Example: movies=("Inception" "Marathon" "Insiders")
 # Output: Inception
 #         Insiders
 # ------------------------------------------------------------------------------------
