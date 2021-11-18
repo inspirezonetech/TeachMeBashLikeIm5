@@ -4,7 +4,7 @@
 # ------------------------------------------------------------------------------------
 
 # This will create a file called "my-scipt.sh" containing the command "echo execute my-script.sh".
-# echo "echo execute my-script.sh" > my-script.sh
+echo "echo execute my-script.sh" > my-script.sh
 
 # To run a bash script, you need to give the file "Execute" permission.
 # If we don't give the "Execute" permission, we may get a permission denied error.
