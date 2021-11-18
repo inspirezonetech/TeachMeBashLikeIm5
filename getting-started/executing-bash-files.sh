@@ -1,25 +1,23 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------------
-# Tutorial: Running a bash script
+# Tutorial: How to execute a bash script
 # ------------------------------------------------------------------------------------
 
-# When our script gets bigger and bigger, we store it in a file.
-# Create a new text file with a .sh extension, then put your commands in it.
+# This will create a file called "my-scipt.sh" containing the command "echo execute my-script.sh".
+# echo "echo execute my-script.sh" > my-script.sh
 
-vim my-script.sh
-
-# And in order to run a bash script, you should give the file "Execute" permission.
+# To run a bash script, you need to give the file "Execute" permission.
 # If we don't give the "Execute" permission, we may get a permission denied error.
+# The following command will give "Execute" permissions to the file just created
+chmod +x ./my-script.sh
 
-chmod u+x ./my-script.sh
-
-# Now in order to run the file.
-
+# Bash files are executed using the following syntax:
 ./my-script.sh
 # or
 bash my-script.sh
 
 # ------------------------------------------------------------------------------------
-# Challenge: write a bash script that, when executed 
-# print a Hello message with your name and show the calendar
+# Challenge: Write a bash script that, when executed 
+# will print a "Hello" message with your name and the current date
+# Hint: Use echo "$(date)" to print the date
 # ------------------------------------------------------------------------------------
