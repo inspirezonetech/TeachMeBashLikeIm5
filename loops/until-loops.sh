@@ -1,6 +1,6 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------------
-# Tutorial: brief description of tutorial content
+# Tutorial: A tutorial on using until loops
 # ------------------------------------------------------------------------------------
 
 # Bash Until loop is used to execute a set of commands repeatedly based on the boolean result of an expression. 
@@ -10,7 +10,7 @@
 
 # declare the variable to initiate the pattern
 num=1
-# run the until lo-p until the number is less than 10
+# run the until loop until the number is greater than 10
 until [ $num -gt 10 ]
 do 
     # print the number
@@ -39,6 +39,7 @@ echo "The reverse number is: $output"
 
 # ------------------------------------------------------------------------------------
 # Challenge: 
+# Use until loops in the solution. 
 # Given a number X. Print "EVEN" if the first digit of X is even number. Otherwise print "ODD".
 # Explanation: For input number 456, third digit in number is 6, the second digit is 5 and first digit is 4 hence print "EVEN"
 # Example: 
