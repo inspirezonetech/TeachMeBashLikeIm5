@@ -15,32 +15,32 @@ array_pets[1]="dog"
 array_pets[2]="hamster"
 
 # Accessing elements of array
-echo ${array_pets[0]} #...Accessing element at index 0 in array 
-echo ${array_pets[1]} #...Accessing element at index 1 in array 
-echo ${array_pets[-1]} #...Accessing last element in array
-echo ${array_pets[@]} # ...Acessing all elements in array, in space formated output 
-echo ${#array_pets[@]} #...Accessing number of elements in array
+echo "${array_pets[0]}" #...Accessing element at index 0 in array 
+echo "${array_pets[1]}" #...Accessing element at index 1 in array 
+echo "${array_pets[-1]}" #...Accessing last element in array
+echo "${array_pets[@]}" # ...Acessing all elements in array, in space formated output 
+echo "${#array_pets[@]}" #...Accessing number of elements in array
 
 
 # Most often arrays can be assigned without explicit declaration by using compound assignments.
 array_pets2=( "parrot" "turtle" "snake" )
-echo ${array_pets2[@]}
+echo "${array_pets2[@]}"
 
 
 # Adding elements to array
 array_pets=("${array_pets[@]}" "fish") 
 # or
 array_pets+=('bunny')
-echo ${array_pets[@]} 
+echo "${array_pets[@]}" 
 
 # Removing elements of array
-unset array_pets[1] # Remove element at index 1 of array 
-echo ${array_pets[@]}
+unset "array_pets[1]" # Remove element at index 1 of array 
+echo "${array_pets[@]}"
    # or
-array_pets=( ${array_pets[@]/c*/} ) # Remove element from array using RegEx
-echo ${array_pets[@]}   
+array_pets=( "${array_pets[@]/c*/}" ) # Remove element from array using RegEx
+echo "${array_pets[@]}"   
 
-printf "%sLastly, we are going to print all elements in array on separate lines by using a for loop...... \n"
+printf "Lastly, we are going to print all elements in array on separate lines by using a for loop...... \n"
 # Simple iteration over all elements in array using for loop
 for pet in "${array_pets[@]}"; do
   echo $pet
